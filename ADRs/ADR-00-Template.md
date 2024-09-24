@@ -8,12 +8,12 @@ The status section should contain a time log of status changes.
 Valid Status:
 Proposed / Accepted / Rejected / Superseded
 
-## Context and Problem Statement
+## Context
 
 - What led to this decision? What problem are you trying to solve?
 - Mention the driving forces: technology changes, new requirements, performance concerns, etc.
 
-## Decision Outcome
+## Decision
 
 - Explain the architectural decision.
 - Include key elements of the decision like new structures, technologies, frameworks, patterns, and any known constraints.
