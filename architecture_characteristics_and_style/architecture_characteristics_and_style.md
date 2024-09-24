@@ -1,7 +1,7 @@
 # Architecture Characteristics and Style
 Normally the driving architecture characteristics would be arrived at collaboratively through discussion with business stakeholders, but for the sake of this kata Team Panda have arrived at the following driving architecture characteristics and primary architecture style based on the information provided in the kata and assumptions about the problem domain. Here we explain the justifications that led us to the driving architecture characteristics and also explain how these characteristics relate to our choice of architecture style.
 
-Team Panda has determined the following top three driving architecture characteristics: configurability, evolvability, testability. These driving architecture characteristics have led us to chose a primary architectural style of microservices. The other characteristics deemed especially important are fault-tolerance, integration, performance, and scalability.
+Team Panda has determined the following top three driving architecture characteristics: configurability, evolvability, testability. These driving architecture characteristics have led us to choose a primary architectural style of microservices. The other characteristics deemed especially important are fault-tolerance, integration, performance, and scalability.
 
 ### Configurability
 There are several problem areas where configurability shapes the architecture. In each of these cases, configurability will drive us towards more modular components, in order that configuration changes can be performed with a minimal impact to only the relevant component of the running system.
