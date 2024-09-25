@@ -1,8 +1,8 @@
-# ADR 004: Template
+# ADR 004: HRIS Integration Microservice
 
 ## Status
 
-- 2024-09-23 Proposed
+- 2024-09-24 Proposed
 
 ## Context
 
