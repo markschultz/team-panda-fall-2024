@@ -3,6 +3,7 @@
 ## Status
 
 - 2024-09-23 Proposed
+- 2024-09-26 Rejected. Functionality rolled into ADR-022
 
 ## Context
 
@@ -28,4 +29,5 @@
 
 ## Risks
 
-- None
+- We are making the assumption that employers have an established contractual relationship with ClearView that handles invoicing and billing.
+
