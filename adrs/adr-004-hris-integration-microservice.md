@@ -8,7 +8,7 @@
 
 - The system is expected to be able to integrate with a large number of external HR systems, both for importing job openings and for exporting resumes.
 - This set of HR systems is expected to change over time as new systems enter the market and older ones fall out of use
-- The specifics of the integration are not relevant to the primary mission of the system (matching applicants to jobs, and providing neutral summaries of resumes).
+- The specifics of the integration are not relevant to the primary mission of the system (matching candidates to jobs, and providing neutral summaries of resumes).
 
 ## Decision
 

@@ -12,15 +12,17 @@
 ## Decision
 
 - A Resume Tips microservice will be created
-- TBD: how does this fit in to the architecture?
+- This microservice will take, as input, the raw text extracted from an candidate's uploaded resume.
+- The microservice will use the LLM Gateway microservice to synchronously request recommendations for improving the resume, then return the results to the requester.
 
 ## Positive Consequences
 
-- Standard microservice advantages (configuration, evolution, testability, etc)
+- Standard microservice advantages (configuration, evolution, testability, etc).
+- Since we are passing the sanitized text of the resume instead of a database reference, we are not requiring the LLM service that handles the request to have any awareness of other services
 
 ## Negative Consequences
 
-- None
+- The data being passed in the call is potentially a few hundred KB, but this should still be not be a bandwidth concern.
 
 ## Risks
 
