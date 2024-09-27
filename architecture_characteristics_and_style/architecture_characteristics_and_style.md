@@ -1,7 +1,18 @@
 # Architecture Characteristics and Style
 Normally the driving architecture characteristics would be arrived at collaboratively through discussion with business stakeholders, but for the sake of this kata Team Panda have arrived at the following driving architecture characteristics and primary architecture style based on the information provided in the kata and assumptions about the problem domain. Here we explain the justifications and assumptions that led us to the driving architecture characteristics and also explain how these characteristics relate to our choice of architecture style.
 
-Team Panda has determined the following top three driving architecture characteristics: configurability, evolvability, testability. These driving architecture characteristics have led us to choose a primary architectural style of microservices. Other characteristics deemed especially important are fault-tolerance, integration, performance, and scalability.
+Team Panda has determined the following top three driving architecture characteristics: evolvability, testability, and scalability. These driving architecture characteristics have led us to choose a primary architectural style of microservices. Other characteristics deemed especially important are configurability, fault-tolerance, integration, and performance.
+
+### Evolvability
+Evolvability is a special concern in regards to the HR integrations and the LLM usage. The HR integration concerns are isolated in a single microservice, which allows us to contain the high rate of change due to evolving third party integrations for a high (and ever-changing) number of HR platforms. Likewise, the LLM usage is separated from the rest of the architecture, allowing advancements in (rapidly-changing) LLM technology or experimentation with our use of LLM technology to occur in an isolated place in the architecture. For example, we could trial a new LLM model with A/B testing that other parts of the architecture have no knowledge of, minimizing regression risk and allowing for effective experimentation.
+
+### Testability
+There are many separate domains within the ClearView architecture, such as LLM processing, HR integration, candidate processing, company processing, and the matching engine. These different contexts will all evolve at different rates and for different reasons. Utilizing a microservice architecture facilitates independent testing of each part, which enables agility and promotes effective deployment practices like continuous delivery.
+
+This is especially important because of the high rate of change expected for the HR integration and LLM processing parts of the architecture. These two areas are also expected to be particularly difficult to test in the first place - HR integrations because regressions with third-party integrations tend to be common due to the difficulty of communication across many different companies, and LLM architecture because of the non-deterministic nature of LLM responses. Additionally, the critical intention for a lack of bias in the LLM processing and matching processes must be tested regularly, not only assumed.
+
+### Scalability and Performance
+Scalability and performance are special concerns for two reasons. First, because LLM processing is resource-intensive and costly, which can sometimes drive it to become an important concern even under low or medium usage. Second, because the matching engine essentially requires analyzing a cross-product of each anonymized resume to all job openings. Refusing to consider those concerns from the onset of developing the system could lead to unexpected poor user experience (long wait times or system failures) or high cost which could be difficult to remediate.
 
 ### Configurability
 There are several problem areas where configurability shapes the architecture. In each of these cases, configurability will drive us towards more modular components, in order that configuration changes can be performed with minimal impact to only the relevant component of the running system.
@@ -10,17 +21,8 @@ There are several problem areas where configurability shapes the architecture. I
 
 Microservices supports configurability well in the above cases because the HR integration module and the LLM module are architected as independent services, meaning configuration changes can be performed agily with as isolated an impact as practical.
 
-### Evolvability
-Similar to configurability, evolvability is a special concern in regards to the HR integrations and the LLM usage. The HR integration concerns are isolated in a single service, which allows us to contain the high rate of change due to evolving third party integrations for a high (and ever-changing) number of HR platforms. Likewise, the LLM usage is separated from the rest of the architecture, allowing advancements in LLM technology or experimentation with our use of LLM technology to occur in an isolated place in the architecture. For example, we could trial a new LLM model with A/B testing that other parts of the architecture have no knowledge of, minimizing regression risk and allowing for effective experimentation.
-
-### Testability
-There are many separate domains within the ClearView architecture, such as LLM processing, HR integration, candidate processing, company processing, and the matching engine. These different contexts will all evolve at different rates and for different reasons, so utilizing a microservice architecture facilitates independent testing of each part, which enables agility and promotes effective deployment practices like continuous delivery.
-
-This is especially imporant to enable because of the high rate of change expected for the HR integration and LLM processing parts of the architecture. These two areas are also expected to be particularly difficult to test in the first place - HR integrations because regressions with third-party integrations tend to be common due to the difficulty of communication across many different companies, and LLM architecture because of the non-deterministic nature of LLM responses.
-
-### Other Especially Important Architecture Characteristics
+### Fault-tolerance
 Fault-tolerance is important because in several cases such as the resume tips feature and the prefill company information feature, the LLM processing adds to the value but is not core to it. In other words, users should still be able to use the system when one non-critical module is fully or partially unavailable. In a similar vein, because LLM processing is resource-intensive, if system cost or lack of elasticity during peak times becomes an issue certain non-critical features could be conveniently disabled to address those concerns with minimal effort if we've already architected a highly fault-tolerant system. For example, a feature flag could be enabled that skips non-critical LLM uses, or for finer control, only allows a portion of those non-critical requests.
 
+### Integration
 Integration is a top concern mainly with the HR integration service as has been explained previously, but because it is not an unusually important concern in other domains within ClearView it did not make the cut for top three driving architecture characteristics.
-
-Performance and scalability are special concerns for two reasons. First, because LLM processing is resource-intensive and costly, which can sometimes drive it to become an important concern even under low or medium usage. Second, because the matching engine essentially requires analyzing a cross-product of each anonymized resume to all job openings. Refusing to consider those concerns from the onset of developing the system could lead to unexpected poor user experience (long wait times) and high cost which could be difficult to remediate.
