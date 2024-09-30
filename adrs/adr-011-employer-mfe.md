@@ -15,8 +15,9 @@
 - We will implement an Employer MFE
 - This will handle the UI portions of the following:
   - Employer (corporation/organization) management
-  - Job imports
-  - Match review
+  - Management of job openings (adding, removing, updating)
+  - Review of job/candidate matches
+  - Request/purchase of candidate full resumes
 
 ## Positive Consequences
 
