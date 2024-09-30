@@ -3,6 +3,7 @@
 ## Status
 
 - 2024-09-23 Proposed
+- 2024-09-25 Accepted
 
 ## Context
 

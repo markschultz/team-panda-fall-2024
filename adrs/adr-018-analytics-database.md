@@ -3,6 +3,7 @@
 ## Status
 
 - 2024-09-24 Proposed
+- 2024-09-26 Accepted
 
 ## Context
 
@@ -21,7 +22,7 @@
 
 ## Negative Consequences
 
-- The need to sync the data (and keep in in sync)
+- The need to sync the data (and keep in in sync). See ADR-020
 
 ## Risks
 
