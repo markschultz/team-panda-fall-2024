@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.1.4:1", "", "03 System Admin Use Cases", "EARoot/EA1/EA1/EA4/EA54.html", "180.png", "16", "0", "", "Use Case diagram0","{78F90461-4F45-4f01-B1B4-A57C5CDB58F4}");
+tocTab[tocTab.length] = new Array("0.1.1.4:2", "", "03 System Admin", "EARoot/EA1/EA1/EA4/EA57.html", "6.png", "E122", "0", "", "Actor0","{9F642C49-491C-4e74-AD1A-CA530DFD42B8}");
+tocTab[tocTab.length] = new Array("0.1.1.4:3", "", "03.01 Maintain Users", "EARoot/EA1/EA1/EA4/EA58.html", "7.png", "E118", "0", "", "UseCase0","{1399979B-B776-4f2f-B465-40FAC4D7F6F6}");
+tocTab[tocTab.length] = new Array("0.1.1.4:4", "", "03.02 Maintain Internal Information", "EARoot/EA1/EA1/EA4/EA59.html", "7.png", "E119", "0", "", "UseCase0","{1F6ADEE5-1243-4572-9829-E3380941093F}");
+tocTab[tocTab.length] = new Array("0.1.1.4:5", "", "03.03 Generate/View Reports", "EARoot/EA1/EA1/EA4/EA60.html", "7.png", "E121", "0", "", "UseCase0","{CE6FFBC4-6F36-4c38-8B41-ACBC0F7ABE8F}");
+tocTab[tocTab.length] = new Array("0.1.1.4:6", "", "03.04 Generate/View Analytics", "EARoot/EA1/EA1/EA4/EA61.html", "7.png", "E120", "0", "", "UseCase0","{7C6FB6C0-5FD6-4798-9851-8768668DAD13}");

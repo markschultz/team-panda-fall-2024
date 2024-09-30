@@ -32,3 +32,10 @@ To address these challenges, the Diversity Cyber Council is developing "ClearVie
 - Employers: Register on the platform, provide company information, post job descriptions, review anonymized candidate profiles, unlock full profiles, conduct interviews, make hiring decisions, and complete surveys.
 - Job Candidates: Register on the platform, upload resumes, receive AI-generated resume tips, view potential matches, contact employers, update or remove resumes, and complete surveys.
 - Administrators: Manage the platform, register users, generate data analytics reports, provide solution-building services, and oversee system maintenance.
+
+## Models
+- [Models Documentation Main](Models/index.html)
+- [Use Cases](Models/EARoot/EA1/EA1/EA10.html)
+- [Components](Models/EARoot/EA1/EA2/EA72.html)
+- [Activities](Models/EARoot/EA1/EA3/EA126.html)
+- 

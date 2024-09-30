@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1.1.2:1", "", "01 Job Candidate Use Cases", "EARoot/EA1/EA1/EA2/EA29.html", "180.png", "20", "0", "", "Use Case diagram0","{AEA4BDE8-DA4F-4e8a-900F-4E290235EEED}");
+tocTab[tocTab.length] = new Array("0.1.1.2:2", "", "01 Job Candidate", "EARoot/EA1/EA1/EA2/EA32.html", "6.png", "E84", "0", "", "Actor0","{1FB33268-6A50-4204-9F4C-C9171FAD137E}");
+tocTab[tocTab.length] = new Array("0.1.1.2:3", "", "01.01 Register", "EARoot/EA1/EA1/EA2/EA33.html", "7.png", "E85", "0", "", "UseCase0","{83EB1A7E-4574-4ca0-8F98-0A79F962C3B4}");
+tocTab[tocTab.length] = new Array("0.1.1.2:4", "", "01.02 Upload Resume", "EARoot/EA1/EA1/EA2/EA34.html", "7.png", "E86", "0", "", "UseCase0","{17805B98-0D90-4e09-A109-6F3D381E4A89}");
+tocTab[tocTab.length] = new Array("0.1.1.2:5", "", "01.03 Submit Resume", "EARoot/EA1/EA1/EA2/EA35.html", "7.png", "E117", "0", "", "UseCase0","{D64A625B-F92F-4d3f-8917-E8AD6CAAAFB2}");
+tocTab[tocTab.length] = new Array("0.1.1.2:6", "", "01.04 Update Resume", "EARoot/EA1/EA1/EA2/EA36.html", "7.png", "E87", "0", "", "UseCase0","{F114A359-F3DA-4f0b-86D3-233698F99E38}");
+tocTab[tocTab.length] = new Array("0.1.1.2:7", "", "01.05 Remove Resume", "EARoot/EA1/EA1/EA2/EA37.html", "7.png", "E89", "0", "", "UseCase0","{65FE365C-DD0C-4ee9-B734-47B3149D9B2F}");
+tocTab[tocTab.length] = new Array("0.1.1.2:8", "", "01.06 View Matches and Unlocks", "EARoot/EA1/EA1/EA2/EA38.html", "7.png", "E88", "0", "", "UseCase0","{62C2A57F-9D59-44a4-B159-6BCFF8C202CA}");
+tocTab[tocTab.length] = new Array("0.1.1.2:9", "", "01.07 View Employer Information", "EARoot/EA1/EA1/EA2/EA39.html", "7.png", "E90", "0", "", "UseCase0","{F6C2B6E6-D277-4bc3-9773-8C3F4DC3BB0E}");
