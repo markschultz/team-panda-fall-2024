@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.1:1", "", "Use Cases", "EARoot/EA1/EA1/EA10.html", "175.png", "21", "0", "", "Logical diagram0","{FBC6E313-4A2B-4da8-878A-751FB73127B8}");
+tocTab[tocTab.length] = new Array("0.1.1.1", "1", "00 Overview", "EARoot/EA1/EA1/EA1/EA27.html", "4.png", "", "", "{8157B4F4-EB3F-42af-B4D2-1E836DF741EF}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2", "1", "01 Job Candidate Use Cases", "EARoot/EA1/EA1/EA2/EA31.html", "4.png", "", "", "{33DF0852-C29B-4ae3-85EB-46D15AEE67C1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.3", "1", "02 Employer Use Cases", "EARoot/EA1/EA1/EA3/EA42.html", "4.png", "", "", "{A40E964B-0C2A-416a-9F90-91AE1B9B0B09}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.4", "1", "03 System Admin Use Cases", "EARoot/EA1/EA1/EA4/EA56.html", "4.png", "", "", "{59332192-2701-4e48-9590-CA15DCF42F86}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.5", "1", "04 System Use Cases", "EARoot/EA1/EA1/EA5/EA64.html", "4.png", "", "", "{63CEBFE8-91B7-44d8-BA6D-3F2DE8526645}", "Package");

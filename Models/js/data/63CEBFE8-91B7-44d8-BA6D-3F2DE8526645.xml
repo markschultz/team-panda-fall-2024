@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.1.1.5:1", "", "04 System Use Cases", "EARoot/EA1/EA1/EA5/EA62.html", "180.png", "13", "0", "", "Use Case diagram0","{E6A66CEE-C73D-4b1c-B8AC-097F3BF3A812}");
+tocTab[tocTab.length] = new Array("0.1.1.5:2", "", "04 ClearView System", "EARoot/EA1/EA1/EA5/EA65.html", "6.png", "E106", "0", "", "Actor0","{CF7F480C-6B72-428c-BBD7-EA66043CC667}");
+tocTab[tocTab.length] = new Array("0.1.1.5:3", "", "04.01 Generate Resume Tips", "EARoot/EA1/EA1/EA5/EA66.html", "7.png", "E113", "0", "", "UseCase0","{84371E59-5C33-4233-B8EE-9259C7359BDB}");
+tocTab[tocTab.length] = new Array("0.1.1.5:4", "", "04.02 Anonymize Resume", "EARoot/EA1/EA1/EA5/EA67.html", "7.png", "E114", "0", "", "UseCase0","{2B9E0126-099E-41a8-ABE8-F3DB394CEA82}");
+tocTab[tocTab.length] = new Array("0.1.1.5:5", "", "04.03 Match Candidates w/  Job openings", "EARoot/EA1/EA1/EA5/EA68.html", "7.png", "E107", "0", "", "UseCase0","{DDFDCDA9-6304-4529-98B8-FAA9A989185A}");
+tocTab[tocTab.length] = new Array("0.1.1.5:6", "", "04.04 Send Resume to External HRIS", "EARoot/EA1/EA1/EA5/EA69.html", "7.png", "E123", "0", "", "UseCase0","{EF1A77AD-EB17-4901-9600-5D338F4E4244}");
+tocTab[tocTab.length] = new Array("0.1.1.5:7", "", "04.05 Invoicing", "EARoot/EA1/EA1/EA5/EA70.html", "7.png", "E115", "0", "", "UseCase0","{13B446AD-2109-46fb-B37E-477D60A1E6D2}");
+tocTab[tocTab.length] = new Array("0.1.1.5:8", "", "04.06 Gather Metrics and Analytics", "EARoot/EA1/EA1/EA5/EA71.html", "7.png", "E116", "0", "", "UseCase0","{713AE471-1A5A-4eca-8F29-49524DB4611F}");
