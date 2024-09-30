@@ -3,6 +3,7 @@
 ## Status
 
 The status section should contain a time log of status changes.
+
 - 2024-09-21 Proposed
 
 Valid Status:

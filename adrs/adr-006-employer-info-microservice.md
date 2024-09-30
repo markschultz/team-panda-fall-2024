@@ -10,7 +10,6 @@
 - The system is expected to search the internet for available data on the organizations that post job openings.
 - This information is used to help fill out details on the company and save effort by the users.
 
-
 ## Decision
 
 - An Employer Information microservice should be created.
@@ -30,4 +29,3 @@
 ## Risks
 
 - We are making the assumption that employers have an established contractual relationship with ClearView that handles invoicing and billing.
-

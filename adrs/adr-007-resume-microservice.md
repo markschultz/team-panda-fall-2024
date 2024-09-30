@@ -24,7 +24,6 @@
   - Resume tips
     - This microserve will handle providing resume tips based on the extracted text of the resume.
 
-
 ## Positive Consequences
 
 - Standard microservice advantages (configuration, evolution, testability, etc).

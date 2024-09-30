@@ -19,6 +19,7 @@
 - Provided service: Gathering Employer Information
   - The system is expected to search the internet for available data on the organizations that post job openings.
   - This will return plain text information about the employer.
+
 ## Positive Consequences
 
 - High degree of configurability and evolvability
