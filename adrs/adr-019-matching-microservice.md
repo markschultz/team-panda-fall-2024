@@ -18,6 +18,7 @@
   - Accepting (and storing) job matching data from employers
   - Finding job matches for a candidate
   - Finding candidate matches for a job
+- In order to support scalability, candidate matching data and job matching data will be queued initially, then processed at regular intervals.
 
 ## Positive Consequences
 
