@@ -14,7 +14,7 @@
 ## Decision
 
 - The key architectural characteristics we will be focused on are:
-  - Configurability
+  - Scalability
   - Evolvability
   - Testability
 
@@ -22,11 +22,12 @@
   - Fault-tolerance
   - Integration
   - Performance
-  - Scalability
+  - Configurability
 
 ## Positive Consequences
 
-- Focusing on configurability and evolvability will allow the system to change over time in response to new technology and shifting market conditions.
+- Focusing on evolvability will allow the system to change over time in response to new technology and shifting market conditions.
+- Scalability will allow for spikes in needed capacity, as well as accommodate growth of use if the system proves popular.
 - Testability is vital for any system that relies on LLMs. Regular validation of outputs is necessary
 
 ## Negative Consequences
