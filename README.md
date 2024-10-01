@@ -36,10 +36,8 @@ To address these challenges, the Diversity Cyber Council is developing "ClearVie
 - Administrators: Manage the platform, register users, generate data analytics reports, provide solution-building services, and oversee system maintenance.
 
 ## C4 Diagrams
-- [Container Diagram](c4/C4%20-%20Container%20Diagram.jpeg)
-  - [Legend](c4/C4%20-%20Container%20Diagram%20-%20Legend.jpeg)
-- [System Context Diagram](c4/C4%20-%20System%20Context%20Diagram.jpeg)
-  - [Legend](c4/C4%20-%20System%20Context%20Diagram%20-%20Legend.jpeg)
+- [Container Diagram](c4/C4%20-%20Container%20Diagram.jpeg) ([Legend](c4/C4%20-%20Container%20Diagram%20-%20Legend.jpeg))
+- [System Context Diagram](c4/C4%20-%20System%20Context%20Diagram.jpeg) ([Legend](c4/C4%20-%20System%20Context%20Diagram%20-%20Legend.jpeg))
 
 ## Models
 This catalog provides a collection of models developed during the design phase of the ClearView system as part of the 2024 Architecture Kata. Each model represents a specific domain or architectural aspect of the system. To explore the detailed models, click on the respective archetype frame below.
