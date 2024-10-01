@@ -3,6 +3,7 @@
 ## Status
 
 - 2024-09-24 Proposed
+- 2024-09-26 Accepted
 
 ## Context
 
@@ -10,7 +11,7 @@
 
 ## Decision
 
-- We will implement a micro front end for managing surveys
+- We will implement a micro service to support the Survey MFE for managing surveys
 - This will interface with the survey MFE (ADR-012) and the survey database (ADR-014)
 - The service will not provide information on individuals' survey results, apart from indicating if the surveys have been offered or completed.
 

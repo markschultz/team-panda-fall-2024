@@ -3,6 +3,7 @@
 ## Status
 
 - 2024-09-24 Proposed
+- 2024-09-30 Accepted
 
 ## Context
 
@@ -11,10 +12,9 @@
 
 ## Decision
 
-- We will store candidate/job match results in a data store
-- Another service (TBD) will refresh the store at regular intervals (several minutes).
-- The Employer Management and Candidate microservices will query this data store in order to retrieve match information
-  - Should there be a microservice for this?
+- We will store candidate/job match results, candidate matching data, and job matching data in a data store
+- The Employer Management and Candidate microservices will query this data store via the matching microservice (ADR-019) in order to retrieve match information.
+- The matching microservice will queue candidate matching data and job matching data and process it periodically, so data will not be completely up-to-date.
 
 ## Positive Consequences
 
