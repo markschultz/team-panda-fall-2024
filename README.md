@@ -2,6 +2,8 @@
 
 Architectural Kata Fall 2024
 
+[View as GitHub Pages for HTML rendering](https://markschultz.github.io/team-panda-fall-2024/)
+
 Team:
   - Mark Schultz
   - Cameron Barton ([LinkedIn](https://www.linkedin.com/in/cameronbarton/))
