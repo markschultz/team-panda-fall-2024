@@ -34,7 +34,9 @@ To address these challenges, the Diversity Cyber Council is developing "ClearVie
 - Administrators: Manage the platform, register users, generate data analytics reports, provide solution-building services, and oversee system maintenance.
 
 ## Models
-- [Models Documentation Main](Models/index.html)
-- [Use Cases](Models/EARoot/EA1/EA1/EA10.html)
-- [Components](Models/EARoot/EA1/EA2/EA72.html)
-- [Activities](Models/EARoot/EA1/EA3/EA126.html)
+This catalog provides a collection of models developed during the design phase of the ClearView system as part of the 2024 Architecture Kata. Each model represents a specific domain or architectural aspect of the system. To explore the detailed models, click on the respective archetype frame below.
+
+- [Models Documentation Main Cover ](Models/index.html)
+  - [Use Cases](Models/EARoot/EA1/EA1/EA12.html)
+  - [Components](Models/EARoot/EA1/EA2/EA74.html)
+  - [Activities](Models/EARoot/EA1/EA3/EA129.html)
