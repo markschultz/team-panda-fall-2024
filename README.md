@@ -4,7 +4,7 @@ Architectural Kata Fall 2024
 
 Team:
   - Mark Schultz
-  - Cameron Barton
+  - Cameron Barton ([LinkedIn](https://www.linkedin.com/in/cameronbarton/))
   - Dan Bongard
   - Calvin Poon
 
