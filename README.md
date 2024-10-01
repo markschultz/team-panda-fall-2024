@@ -6,7 +6,7 @@ Team:
   - Mark Schultz
   - Cameron Barton ([LinkedIn](https://www.linkedin.com/in/cameronbarton/))
   - Dan Bongard
-  - Calvin Poon
+  - Calvin Poon ([LinkedIn](https://www.linkedin.com/in/calvinpoon/))
 
 ## Problem Background
 ### Problem Statement
